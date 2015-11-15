@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Locadora - R5 Rent a Car</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="cidades">
+
+        <item>Escolha a cidade</item>
+        <item>São Paulo</item>
+        <item>Guarulhos</item>
+        <item>São Bernardo</item>
+        <item>São Caetano</item>
+        <item>Santo André</item>
+        <item>Duque de Caxias</item>
+        <item>Niterói</item>
+        <item>Paraty</item>
+        <item>Rio de Janeiro</item>
+        <item>Teresópolis</item>
+        <item>Blumenau</item>
+        <item>Criciúma</item>
+        <item>Florianópolis</item>
+        <item>Joinville</item>
+        <item>São José</item>
+        <item>Belo Horizonte</item>
+        <item>Betim</item>
+        <item>Campo Belo</item>
+        <item>Juíz de Fora</item>
+        <item>Uberlândia</item>
+        <item>Camaçari</item>
+        <item>Feira de Santana</item>
+        <item>Itabuna</item>
+        <item>Porto Seguro</item>
+        <item>Salvador</item>
+    </string-array>
+
+</resources>

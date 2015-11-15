@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/imagemVeiculo"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/imagemVeiculo"
+        android:id="@+id/lblModelo"
+        android:layout_marginLeft="15dp"
+        android:text="Modelo: "
+        android:textAlignment="center"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/lblModelo"
+        android:layout_below="@+id/imagemVeiculo"
+        android:layout_marginRight="15dp"
+        android:id="@+id/modelo"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/lblModelo"
+        android:id="@+id/lblFabricante"
+        android:layout_marginLeft="5dp"
+        android:text="Fabricante: "
+        android:textAlignment="center"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/lblFabricante"
+        android:layout_below="@+id/modelo"
+        android:layout_marginRight="15dp"
+        android:id="@+id/fabricante"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/lblFabricante"
+        android:id="@+id/lblCidade"
+        android:layout_marginLeft="10dp"
+        android:text="Cidade: "
+        android:textAlignment="center"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/lblCidade"
+        android:layout_below="@+id/fabricante"
+        android:layout_marginRight="15dp"
+        android:id="@+id/cidade"/>
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/lblCidade"
+        android:id="@+id/lblKmControlado"
+        android:layout_marginLeft="5dp"
+        android:text="Km Controlado: "
+        android:textAlignment="center"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/lblKmControlado"
+        android:layout_below="@+id/cidade"
+        android:layout_marginRight="15dp"
+        android:id="@+id/kmcontrolado"/>
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/lblKmControlado"
+        android:id="@+id/lblKmLivre"
+        android:layout_marginLeft="15dp"
+        android:text="Km Livre: "
+        android:textAlignment="center"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/lblKmLivre"
+        android:layout_below="@+id/kmcontrolado"
+        android:layout_marginRight="15dp"
+        android:id="@+id/kmlivre"/>
+
+</RelativeLayout>
